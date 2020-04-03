@@ -6,6 +6,9 @@ time window_stop
 
 uint16 samples
 
+# Power Consumption
+uint16 power
+
 # Load per CPU
 float32[] cpu_load_mean
 float32[] cpu_load_std
