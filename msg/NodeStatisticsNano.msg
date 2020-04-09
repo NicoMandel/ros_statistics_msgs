@@ -11,18 +11,25 @@ uint16 samples
 
 uint16 threads
 
-# Process CPU usage, as percentage of total local use
+# Process CPU usage - to be used with num_cpus for host
 float32 cpu_load_mean
 float32 cpu_load_std
 float32 cpu_load_max
 
-# Virtual Memory use
+# Real Memory use
+float64 pss_mean
+float32 pss_std
+float64 pss_max
+
+# process swap access
+float64 swap_mean
+float32 swap_std
+float64 swap_max
+
+# Virtual Memory Use
 float64 virt_mem_mean
 float32 virt_mem_std
 float64 virt_mem_max
 
-# Real Memory Use
-float64 real_mem_mean
-float32 real_mem_std
-float64 real_mem_max
+
 
