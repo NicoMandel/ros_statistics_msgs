@@ -37,3 +37,8 @@ float64 swap_avail_mean
 float64 swap_avail_std
 float64 swap_avail_min
 
+# Shared Memory - interoperability
+float64 phymem_shared_mean
+float32 phymem_shared_std
+float64 phymem_shared_max
+
