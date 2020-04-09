@@ -8,6 +8,7 @@ add_message_files(DIRECTORY msg
     HostStatistics.msg
     NodeStatistics.msg
     NanoStatistics.msg
+    NodeStatisticsNano.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs)
