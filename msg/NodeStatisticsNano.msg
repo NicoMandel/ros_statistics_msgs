@@ -8,7 +8,7 @@ time window_start
 time window_stop
 
 uint16 samples
-
+uint8 cpu_count
 uint16 threads
 
 # Process CPU usage - to be used with num_cpus for host
